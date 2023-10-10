@@ -10,7 +10,7 @@
     "make": "electron-forge make",
     "publish": "electron-forge publish",
     "lint": "eslint --ext .ts,.tsx .",
-    "orm-start": "ts-node src/index.ts",
+    "orm-start": "ts-node electron/index.ts",
     "typeorm": "typeorm-ts-node-commonjs"
   },
   "keywords": [],
