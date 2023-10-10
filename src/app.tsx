@@ -1,7 +1,7 @@
-import * as ReactDOM from 'react-dom';
+import { createRoot } from 'react-dom/client';
 import { UserController } from '../core/controller/User.controller';
 
-function render() {
+function MyText() {
     return(
         <div>
             <h1>React-electron-typeorm boilerplate</h1>
@@ -9,15 +9,10 @@ function render() {
     )
 }
 
-function render2() {
-    ReactDOM.render(<h2>Este es un test</h2>, document.body);
-    getUsers().then(res => console.log(res));
-}
-
-async function getUsers(): Promise<UserDTO[]> {
-    const userController = new UserController();
-    return await userController.getAllUsers();
+function render() {
+    const domNode =  document.getElementById('root');
+    const root = createRoot(domNode);
+    root.render(<MyText />);
 }
 
 render();
-render2();
