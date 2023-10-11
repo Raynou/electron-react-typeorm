@@ -1,22 +1,29 @@
 {
-  "compilerOptions": {
-    "target": "ES6",
-    "allowJs": true,
-    "module": "commonjs",
-    "skipLibCheck": true,
-    "esModuleInterop": true,
-    "noImplicitAny": true,
-    "sourceMap": true,
-    "baseUrl": ".",
-    "outDir": "dist",
-    "moduleResolution": "node",
-    "resolveJsonModule": true,
-    "jsx": "react-jsx",
-    "emitDecoratorMetadata": true,
-    "experimentalDecorators": true,
-    "paths": {
-      "*": ["node_modules/*"]
-    }
-  },
-  "include": ["src", "*.d.ts", "core"]
+	"compilerOptions": {
+		"target": "ES6",
+		"allowJs": true,
+		"module": "commonjs",
+		"skipLibCheck": true,
+		"esModuleInterop": true,
+		"noImplicitAny": true,
+		"sourceMap": true,
+		"baseUrl": ".",
+		"outDir": "dist",
+		"moduleResolution": "node",
+		"resolveJsonModule": true,
+		"jsx": "react-jsx",
+		"emitDecoratorMetadata": true,
+		"experimentalDecorators": true,
+		"paths": {
+			"*": ["node_modules/*"]
+		}
+	},
+	"include": [
+		"src",
+		"*.d.ts",
+		"core",
+    "electron"
+  ]
 }
+
+	
