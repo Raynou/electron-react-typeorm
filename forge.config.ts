@@ -28,7 +28,7 @@ const config: ForgeConfig = {
 				config: rendererConfig,
 				entryPoints: [
 					{
-						html: './index.html',
+						html: './src/index.html',
 						js: './electron/renderer.ts',
 						name: 'main_window',
 						preload: {
