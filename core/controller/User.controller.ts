@@ -1,6 +1,6 @@
 export class UserController {
-    async getAllUsers(): Promise<UserDTO[]> {
-        const users: UserDTO[] = await window.userAPI.getAllUsers();
-        return users;
-    }
+	async getAllUsers(): Promise<UserDTO[]> {
+		const users: UserDTO[] = await window.userAPI.getAllUsers();
+		return users;
+	}
 }

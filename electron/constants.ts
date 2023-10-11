@@ -1,5 +1,5 @@
 export class K {
-    static User = {
-        getAllUsers: "getAllUsers"
-    }
+	static User = {
+		getAllUsers: 'getAllUsers',
+	};
 }
