@@ -1,9 +1,9 @@
 export interface IUserAPI {
-    getAllUsers: () => Promise<UserDTO[]>
-};
+	getAllUsers: () => Promise<UserDTO[]>;
+}
 
-declare global  {
-    interface Window {
-        userAPI: IUserAPI
-    }
+declare global {
+	interface Window {
+		userAPI: IUserAPI;
+	}
 }
